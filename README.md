@@ -10,7 +10,7 @@ Prerequisites:
 * Pandas
 * Selenium 3
 * Chrome and chromedriver
-# Running
+# Usage
 * Crawling: Run all cells in ```crawler.ipynb```
 * Visualization Run all cells in ```visualize.ipynb```
 # Exploratory
