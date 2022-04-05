@@ -24,7 +24,7 @@ jobs:
     - name: Get chromedriver
       run: |
         wget -O ./LATEST_RELEASE http://chromedriver.storage.googleapis.com/LATEST_RELEASE && \
-        $latest = $(cat ./LATEST_RELEASE) && \
+        latest=$(cat ./LATEST_RELEASE) && \
         wget -O ./chromedriver.zip'http://chromedriver.storage.googleapis.com/'$latest'/chromedriver_linux64.zip' && \
         unzip chromedriver -d ./ -y
     - name: Install Chrome
