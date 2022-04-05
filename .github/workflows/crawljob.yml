@@ -27,8 +27,8 @@ jobs:
         latest=$(cat ./LATEST_RELEASE) && \
         wget -O ./chromedriver.zip "http://chromedriver.storage.googleapis.com/"$latest"/chromedriver_linux64.zip" && \
         unzip -o chromedriver -d ./
-    - name: Install Chrome
-      run: apt-get install google-chrome-stable
+    # - name: Install Chrome
+    #   run: apt-get install google-chrome-stable
     - name: Install dependencies
       run: |
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
