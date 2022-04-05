@@ -24,7 +24,6 @@ jobs:
       run: wget --no-verbose -O /tmp/chrome.deb https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_98.0.4758.80_amd64.deb \
           && apt install -y /tmp/chrome.deb \
           && rm /tmp/chrome.deb
-      run: 
     - name: Install dependencies
       run: |
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
