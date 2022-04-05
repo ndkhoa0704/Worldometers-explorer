@@ -19,8 +19,8 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: ${{ matrix.python-version }}
-    - name: Install unzip
-      run: apt-get install unzip -y
+    # - name: Install unzip
+    #   run: apt-get install unzip -y
     - name: Get chromedriver
       run: |
         wget -O ./LATEST_RELEASE http://chromedriver.storage.googleapis.com/LATEST_RELEASE && \
