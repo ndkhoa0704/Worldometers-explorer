@@ -19,22 +19,18 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: ${{ matrix.python-version }}
-    # - name: Install unzip
-    #   run: apt-get install unzip -y
     - name: Get chromedriver
       run: |
         wget -O ./LATEST_RELEASE http://chromedriver.storage.googleapis.com/LATEST_RELEASE && \
         latest=$(cat ./LATEST_RELEASE) && \
         wget -O ./chromedriver.zip "http://chromedriver.storage.googleapis.com/"$latest"/chromedriver_linux64.zip" && \
         unzip -o chromedriver -d ./
-    # - name: Install Chrome
-    #   run: apt-get install google-chrome-stable
     - name: Install dependencies
-      run: |
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      run: if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Crawl
-      run: |
-        python crawler.py
+      run: python crawler.py
+    - name: Clean
+      run: rm chromedriver.zip chromedriver LATEST_RELEASE
     - name: Update
       run: |
         now=`date`
