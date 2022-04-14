@@ -1,0 +1,14 @@
+Date	Country,Other	TotalCases	NewCases	TotalDeaths	NewDeaths	TotalRecovered	NewRecovered	ActiveCases	Serious,Critical	Tot Cases/1M pop	Deaths/1M pop	TotalTests	Tests/1M pop	Population	Continent
+2022-04-02	St. Vincent Grenadines	6746		106.0		6638.0		2.0		60471.0	950.0	98571.0	883593.0	111557.0	North America
+2022-04-03	St. Vincent Grenadines	6746		106.0		6638.0		2.0		60471.0	950.0	98571.0	883585.0	111558.0	North America
+2022-04-04	St. Vincent Grenadines	6746		106.0		6638.0		2.0		60470.0	950.0	98571.0	883577.0	111559.0	North America
+2022-04-05	St. Vincent Grenadines	6746		106.0		6638.0		2.0		60470.0	950.0	98631.0	884107.0	111560.0	North America
+2022-04-06	St. Vincent Grenadines	6747	1.0	106.0		6639.0	1.0	2.0		60478.0	950.0	98654.0	884305.0	111561.0	North America
+2022-04-07	St. Vincent Grenadines	6747		106.0		6639.0		2.0		60478.0	950.0	98654.0	884298.0	111562.0	North America
+2022-04-08	St. Vincent Grenadines	6748	1.0	106.0		6639.0		3.0		60486.0	950.0	98670.0	884433.0	111563.0	North America
+2022-04-09	St. Vincent Grenadines	6748		106.0		6639.0		3.0		60485.0	950.0	98670.0	884425.0	111564.0	North America
+2022-04-10	St. Vincent Grenadines	6748		106.0		6639.0		3.0		60485.0	950.0	98670.0	884425.0	111564.0	North America
+2022-04-11	St. Vincent Grenadines	6748		106.0		6639.0		3.0		60485.0	950.0	98670.0	884417.0	111565.0	North America
+2022-04-12	St. Vincent Grenadines	6748		106.0		6639.0		3.0		60484.0	950.0	98670.0	884409.0	111566.0	North America
+2022-04-13	St. Vincent Grenadines	6748		106.0		6639.0		3.0		60484.0	950.0	98692.0	884606.0	111566.0	North America
+2022-04-14	St. Vincent Grenadines	6748		106.0		6640.0	1.0	2.0		60484.0	950.0	98708.0	884750.0	111566.0	North America

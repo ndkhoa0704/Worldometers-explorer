@@ -1,0 +1,14 @@
+Date	Country,Other	TotalCases	NewCases	TotalDeaths	NewDeaths	TotalRecovered	NewRecovered	ActiveCases	Serious,Critical	Tot Cases/1M pop	Deaths/1M pop	TotalTests	Tests/1M pop	Population	Continent
+2022-04-02	Cook Islands	2118	132.0			1396.0	121.0	722.0		120396.0		9860.0	560482.0	17592.0	Australia/Oceania
+2022-04-03	Cook Islands	2118				1396.0		722.0		120396.0		9860.0	560482.0	17592.0	Australia/Oceania
+2022-04-04	Cook Islands	2118				1396.0		722.0		120396.0		9860.0	560482.0	17592.0	Australia/Oceania
+2022-04-05	Cook Islands	2526	408.0			1749.0	353.0	777.0		143588.0		12268.0	697362.0	17592.0	Australia/Oceania
+2022-04-06	Cook Islands	2526				1749.0		777.0		143588.0		12268.0	697362.0	17592.0	Australia/Oceania
+2022-04-07	Cook Islands	2715	189.0			1891.0	142.0	824.0		154332.0		12829.0	729252.0	17592.0	Australia/Oceania
+2022-04-08	Cook Islands	2875	160.0			2004.0	113.0	871.0		163427.0		12829.0	729252.0	17592.0	Australia/Oceania
+2022-04-09	Cook Islands	3171	296.0			2319.0	315.0	852.0		180252.0		13184.0	749432.0	17592.0	Australia/Oceania
+2022-04-10	Cook Islands	3171				2319.0		852.0		180242.0		13184.0	749389.0	17593.0	Australia/Oceania
+2022-04-11	Cook Islands	3171				2319.0		852.0		180242.0		13184.0	749389.0	17593.0	Australia/Oceania
+2022-04-12	Cook Islands	3449	278.0			2734.0	415.0	715.0		196044.0		13938.0	792247.0	17593.0	Australia/Oceania
+2022-04-13	Cook Islands	3584	135.0			2890.0	156.0	694.0		203717.0		13938.0	792247.0	17593.0	Australia/Oceania
+2022-04-14	Cook Islands	3688	104.0			3049.0	159.0	639.0		209629.0		14341.0	815154.0	17593.0	Australia/Oceania

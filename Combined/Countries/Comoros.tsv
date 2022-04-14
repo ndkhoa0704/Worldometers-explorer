@@ -1,0 +1,14 @@
+Date	Country,Other	TotalCases	NewCases	TotalDeaths	NewDeaths	TotalRecovered	NewRecovered	ActiveCases	Serious,Critical	Tot Cases/1M pop	Deaths/1M pop	TotalTests	Tests/1M pop	Population	Continent
+2022-04-02	Comoros	8088	1.0	160.0		7920.0		8.0		8967.0	177.0			902011.0	Africa
+2022-04-03	Comoros	8089	1.0	160.0		7921.0	1.0	8.0		8967.0	177.0			902062.0	Africa
+2022-04-04	Comoros	8093	4.0	160.0		7921.0		12.0		8971.0	177.0			902113.0	Africa
+2022-04-05	Comoros	8093		160.0		7921.0		12.0		8971.0	177.0			902164.0	Africa
+2022-04-06	Comoros	8093		160.0		7921.0		12.0		8970.0	177.0			902214.0	Africa
+2022-04-07	Comoros	8095	2.0	160.0		7925.0	4.0	10.0		8972.0	177.0			902265.0	Africa
+2022-04-08	Comoros	8095		160.0		7926.0	1.0	9.0		8971.0	177.0			902316.0	Africa
+2022-04-09	Comoros	8097	2.0	160.0		7927.0	1.0	10.0		8973.0	177.0			902367.0	Africa
+2022-04-10	Comoros	8097		160.0		7927.0		10.0		8973.0	177.0			902417.0	Africa
+2022-04-11	Comoros	8099	2.0	160.0		7929.0	2.0	10.0		8974.0	177.0			902468.0	Africa
+2022-04-12	Comoros	8100	1.0	160.0		7933.0	4.0	7.0		8975.0	177.0			902519.0	Africa
+2022-04-13	Comoros	8100		160.0		7933.0		7.0		8975.0	177.0			902519.0	Africa
+2022-04-14	Comoros	8100		160.0		7933.0		7.0		8975.0	177.0			902519.0	Africa

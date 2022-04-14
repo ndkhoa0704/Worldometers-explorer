@@ -29,6 +29,8 @@ jobs:
       run: if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Crawl
       run: python crawler.py
+    - name: Combine data
+      run: python ./Tableau/combine.py
     - name: Clean
       run: rm chromedriver.zip chromedriver LATEST_RELEASE
     - name: Update

@@ -1,0 +1,14 @@
+Date	Country,Other	TotalCases	NewCases	TotalDeaths	NewDeaths	TotalRecovered	NewRecovered	ActiveCases	Serious,Critical	Tot Cases/1M pop	Deaths/1M pop	TotalTests	Tests/1M pop	Population	Continent
+2022-04-02	Caribbean Netherlands	8574	34.0	33.0	2.0	8160.0	23.0	381.0		321726.0	1238.0	30126.0	1130432.0	26650.0	North America
+2022-04-03	Caribbean Netherlands	8574		33.0		8160.0		381.0		321726.0	1238.0	30126.0	1130432.0	26650.0	North America
+2022-04-04	Caribbean Netherlands	8574		33.0		8160.0		381.0		321714.0	1238.0	30126.0	1130389.0	26651.0	North America
+2022-04-05	Caribbean Netherlands	8851	277.0	33.0		8447.0	287.0	371.0		332095.0	1238.0	30126.0	1130347.0	26652.0	North America
+2022-04-06	Caribbean Netherlands	8860	9.0	33.0		8459.0	12.0	368.0		332433.0	1238.0	30126.0	1130347.0	26652.0	North America
+2022-04-07	Caribbean Netherlands	8864	4.0	33.0		8463.0	4.0	368.0		332570.0	1238.0	30126.0	1130304.0	26653.0	North America
+2022-04-08	Caribbean Netherlands	8872	8.0	33.0		8479.0	16.0	360.0		332858.0	1238.0	30126.0	1130262.0	26654.0	North America
+2022-04-09	Caribbean Netherlands	8992	120.0	33.0		8620.0	141.0	339.0		337360.0	1238.0	30126.0	1130262.0	26654.0	North America
+2022-04-10	Caribbean Netherlands	8992		33.0		8620.0		339.0		337348.0	1238.0	30126.0	1130219.0	26655.0	North America
+2022-04-11	Caribbean Netherlands	8992		33.0		8620.0		339.0		337335.0	1238.0	30126.0	1130177.0	26656.0	North America
+2022-04-12	Caribbean Netherlands	9000	8.0	33.0		8647.0	27.0	320.0		337635.0	1238.0	30126.0	1130177.0	26656.0	North America
+2022-04-13	Caribbean Netherlands	9341	341.0	34.0	1.0	8987.0	340.0	320.0		350428.0	1276.0	30126.0	1130177.0	26656.0	North America
+2022-04-14	Caribbean Netherlands	9346	5.0	34.0		8987.0		325.0		350615.0	1276.0	30126.0	1130177.0	26656.0	North America

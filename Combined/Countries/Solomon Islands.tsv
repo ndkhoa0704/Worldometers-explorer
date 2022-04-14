@@ -1,0 +1,14 @@
+Date	Country,Other	TotalCases	NewCases	TotalDeaths	NewDeaths	TotalRecovered	NewRecovered	ActiveCases	Serious,Critical	Tot Cases/1M pop	Deaths/1M pop	TotalTests	Tests/1M pop	Population	Continent
+2022-04-02	Solomon Islands	11470		133.0		9700.0		1637.0	1.0	16012.0	186.0	5117.0	7143.0	716351.0	Australia/Oceania
+2022-04-03	Solomon Islands	11470		133.0		9700.0		1637.0	1.0	16011.0	186.0	5117.0	7143.0	716397.0	Australia/Oceania
+2022-04-04	Solomon Islands	11470		133.0		9700.0		1637.0	1.0	16010.0	186.0	5117.0	7142.0	716443.0	Australia/Oceania
+2022-04-05	Solomon Islands	11470		133.0		9700.0		1637.0	1.0	16009.0	186.0	5117.0	7142.0	716489.0	Australia/Oceania
+2022-04-06	Solomon Islands	11856	386.0	136.0	3.0	9700.0		2020.0	2.0	16546.0	190.0	5117.0	7141.0	716536.0	Australia/Oceania
+2022-04-07	Solomon Islands	11856		136.0		9700.0		2020.0	2.0	16545.0	190.0	5117.0	7141.0	716582.0	Australia/Oceania
+2022-04-08	Solomon Islands	12005	149.0	137.0	1.0	10805.0	1105.0	1063.0	2.0	16752.0	191.0	5117.0	7140.0	716628.0	Australia/Oceania
+2022-04-09	Solomon Islands	12005		137.0		10805.0		1063.0	2.0	16751.0	191.0	5117.0	7140.0	716674.0	Australia/Oceania
+2022-04-10	Solomon Islands	12005		137.0		10805.0		1063.0	2.0	16750.0	191.0	5117.0	7139.0	716720.0	Australia/Oceania
+2022-04-11	Solomon Islands	12005		137.0		10805.0		1063.0	2.0	16749.0	191.0	5117.0	7139.0	716766.0	Australia/Oceania
+2022-04-12	Solomon Islands	12005		137.0		10805.0		1063.0	2.0	16748.0	191.0	5117.0	7139.0	716813.0	Australia/Oceania
+2022-04-13	Solomon Islands	12285	280.0	139.0	2.0	11057.0	252.0	1089.0	2.0	17138.0	194.0	5117.0	7139.0	716813.0	Australia/Oceania
+2022-04-14	Solomon Islands	12285		139.0		11057.0		1089.0	2.0	17138.0	194.0	5117.0	7139.0	716813.0	Australia/Oceania

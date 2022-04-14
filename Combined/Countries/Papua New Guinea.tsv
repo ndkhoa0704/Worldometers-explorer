@@ -1,0 +1,14 @@
+Date	Country,Other	TotalCases	NewCases	TotalDeaths	NewDeaths	TotalRecovered	NewRecovered	ActiveCases	Serious,Critical	Tot Cases/1M pop	Deaths/1M pop	TotalTests	Tests/1M pop	Population	Continent
+2022-04-02	Papua New Guinea	42203		640.0		39905.0		1658.0	7.0	4566.0	69.0	249149.0	26954.0	9243590.0	Australia/Oceania
+2022-04-03	Papua New Guinea	42203		640.0		39905.0		1658.0	7.0	4565.0	69.0	249149.0	26952.0	9244054.0	Australia/Oceania
+2022-04-04	Papua New Guinea	42203		640.0		39905.0		1658.0	7.0	4565.0	69.0	249149.0	26951.0	9244518.0	Australia/Oceania
+2022-04-05	Papua New Guinea	42203		640.0		39905.0		1658.0	7.0	4565.0	69.0	249149.0	26950.0	9244982.0	Australia/Oceania
+2022-04-06	Papua New Guinea	43374	1171.0	643.0	3.0	42597.0	2692.0	134.0	7.0	4691.0	70.0	249149.0	26948.0	9245445.0	Australia/Oceania
+2022-04-07	Papua New Guinea	43374		643.0		42597.0		134.0	7.0	4691.0	70.0	249149.0	26947.0	9245909.0	Australia/Oceania
+2022-04-08	Papua New Guinea	43374		643.0		42597.0		134.0	7.0	4691.0	70.0	249149.0	26946.0	9246373.0	Australia/Oceania
+2022-04-09	Papua New Guinea	43374		643.0		42597.0		134.0	7.0	4691.0	70.0	249149.0	26944.0	9246837.0	Australia/Oceania
+2022-04-10	Papua New Guinea	43374		643.0		42597.0		134.0	7.0	4690.0	70.0	249149.0	26943.0	9247301.0	Australia/Oceania
+2022-04-11	Papua New Guinea	43374		643.0		42597.0		134.0	7.0	4690.0	70.0	249149.0	26942.0	9247764.0	Australia/Oceania
+2022-04-12	Papua New Guinea	43526	152.0	643.0		42800.0	203.0	83.0	7.0	4706.0	70.0	249149.0	26940.0	9248228.0	Australia/Oceania
+2022-04-13	Papua New Guinea	43615	89.0	649.0	6.0	42906.0	106.0	60.0	7.0	4716.0	70.0	249149.0	26940.0	9248228.0	Australia/Oceania
+2022-04-14	Papua New Guinea	43615		649.0		42906.0		60.0	7.0	4716.0	70.0	249149.0	26940.0	9248228.0	Australia/Oceania
