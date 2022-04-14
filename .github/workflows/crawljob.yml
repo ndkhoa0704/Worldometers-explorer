@@ -30,7 +30,7 @@ jobs:
     - name: Crawl
       run: python crawler.py
     - name: Combine data
-      run: python ./Tableau/combine.py
+      run: python combine.py
     - name: Clean
       run: rm chromedriver.zip chromedriver LATEST_RELEASE
     - name: Update

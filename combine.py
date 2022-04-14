@@ -44,15 +44,6 @@ def combine(raw: dict, dates: list, path: str):
 
     world.to_csv(path + '/World.tsv', sep='\t', index=False)
 
-
-
-        
-    
-    
-
-def save(path):
-    pass
-
 def main():
     data_path = './data'
     processed_path = './combined'
