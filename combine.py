@@ -34,7 +34,7 @@ def combine(raw: dict, dates: list, path: str):
             row.name = 0
             country_df = country_df.append(row, ignore_index=True)
 
-        country_df.to_csv(path + f'/Countries/{c}.tsv', sep='\t',index=False)
+        country_df.to_csv(path + f'/countries/{c}.tsv', sep='\t',index=False)
     
     # World
     world = pd.DataFrame(columns=['Date'] + features[1:-1])
