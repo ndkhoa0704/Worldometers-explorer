@@ -1,0 +1,1904 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20221.22.0324.2209                               -->
+<workbook original-version='18.1' source-build='2022.1.0 (20221.22.0324.2209)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='worldometers-2022-04-14.tsv (Multiple Connections)' inline='true' name='federated.1ig8jb20ipqr2f1cygrjc15cpl6o' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='worldometers-2022-04-14' name='textscan.0qcuq8k0zkd2jy1g1knmw0jree4q'>
+            <connection class='textscan' directory='D:/GitHub/Worldometers-explorer/data' filename='worldometers-2022-04-14.tsv' password='' server='' />
+          </named-connection>
+          <named-connection caption='World' name='textscan.1dqapp91s51l5h18e6zk617w8p5x'>
+            <connection class='textscan' directory='D:/GitHub/Worldometers-explorer/combined' filename='World.tsv' password='' server='' />
+          </named-connection>
+          <named-connection caption='USA' name='textscan.0cmq66n17c1pl51cx6yq21tu592o'>
+            <connection class='textscan' directory='D:/GitHub/Worldometers-explorer/combined/countries' filename='USA.tsv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0qcuq8k0zkd2jy1g1knmw0jree4q' name='worldometers-2022-04-14.tsv' table='[worldometers-2022-04-14#tsv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator='&#9;'>
+            <column datatype='string' name='Country,Other' ordinal='0' />
+            <column datatype='integer' name='TotalCases' ordinal='1' />
+            <column datatype='real' name='NewCases' ordinal='2' />
+            <column datatype='integer' name='TotalDeaths' ordinal='3' />
+            <column datatype='real' name='NewDeaths' ordinal='4' />
+            <column datatype='string' name='TotalRecovered' ordinal='5' />
+            <column datatype='string' name='NewRecovered' ordinal='6' />
+            <column datatype='real' name='ActiveCases' ordinal='7' />
+            <column datatype='real' name='Serious,Critical' ordinal='8' />
+            <column datatype='integer' name='Tot Cases/1M pop' ordinal='9' />
+            <column datatype='integer' name='Deaths/1M pop' ordinal='10' />
+            <column datatype='string' name='TotalTests' ordinal='11' />
+            <column datatype='string' name='Tests/1M pop' ordinal='12' />
+            <column datatype='integer' name='Population' ordinal='13' />
+            <column datatype='string' name='Continent' ordinal='14' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0qcuq8k0zkd2jy1g1knmw0jree4q' name='worldometers-2022-04-14.tsv' table='[worldometers-2022-04-14#tsv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator='&#9;'>
+            <column datatype='string' name='Country,Other' ordinal='0' />
+            <column datatype='integer' name='TotalCases' ordinal='1' />
+            <column datatype='real' name='NewCases' ordinal='2' />
+            <column datatype='integer' name='TotalDeaths' ordinal='3' />
+            <column datatype='real' name='NewDeaths' ordinal='4' />
+            <column datatype='string' name='TotalRecovered' ordinal='5' />
+            <column datatype='string' name='NewRecovered' ordinal='6' />
+            <column datatype='real' name='ActiveCases' ordinal='7' />
+            <column datatype='real' name='Serious,Critical' ordinal='8' />
+            <column datatype='integer' name='Tot Cases/1M pop' ordinal='9' />
+            <column datatype='integer' name='Deaths/1M pop' ordinal='10' />
+            <column datatype='string' name='TotalTests' ordinal='11' />
+            <column datatype='string' name='Tests/1M pop' ordinal='12' />
+            <column datatype='integer' name='Population' ordinal='13' />
+            <column datatype='string' name='Continent' ordinal='14' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[worldometers-2022-04-14.tsv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;\\t&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country,Other</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country,Other]</local-name>
+            <parent-name>[worldometers-2022-04-14.tsv]</parent-name>
+            <remote-alias>Country,Other</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[worldometers-2022-04-14.tsv_D1CE70BA9AB540B58A3454904BC389B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TotalCases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TotalCases]</local-name>
+            <parent-name>[worldometers-2022-04-14.tsv]</parent-name>
+            <remote-alias>TotalCases</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[worldometers-2022-04-14.tsv_D1CE70BA9AB540B58A3454904BC389B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NewCases</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NewCases]</local-name>
+            <parent-name>[worldometers-2022-04-14.tsv]</parent-name>
+            <remote-alias>NewCases</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[worldometers-2022-04-14.tsv_D1CE70BA9AB540B58A3454904BC389B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TotalDeaths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TotalDeaths]</local-name>
+            <parent-name>[worldometers-2022-04-14.tsv]</parent-name>
+            <remote-alias>TotalDeaths</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[worldometers-2022-04-14.tsv_D1CE70BA9AB540B58A3454904BC389B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NewDeaths</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NewDeaths]</local-name>
+            <parent-name>[worldometers-2022-04-14.tsv]</parent-name>
+            <remote-alias>NewDeaths</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[worldometers-2022-04-14.tsv_D1CE70BA9AB540B58A3454904BC389B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TotalRecovered</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TotalRecovered]</local-name>
+            <parent-name>[worldometers-2022-04-14.tsv]</parent-name>
+            <remote-alias>TotalRecovered</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[worldometers-2022-04-14.tsv_D1CE70BA9AB540B58A3454904BC389B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NewRecovered</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NewRecovered]</local-name>
+            <parent-name>[worldometers-2022-04-14.tsv]</parent-name>
+            <remote-alias>NewRecovered</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[worldometers-2022-04-14.tsv_D1CE70BA9AB540B58A3454904BC389B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ActiveCases</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ActiveCases]</local-name>
+            <parent-name>[worldometers-2022-04-14.tsv]</parent-name>
+            <remote-alias>ActiveCases</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[worldometers-2022-04-14.tsv_D1CE70BA9AB540B58A3454904BC389B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Serious,Critical</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Serious,Critical]</local-name>
+            <parent-name>[worldometers-2022-04-14.tsv]</parent-name>
+            <remote-alias>Serious,Critical</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[worldometers-2022-04-14.tsv_D1CE70BA9AB540B58A3454904BC389B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tot Cases/1M pop</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tot Cases/1M pop]</local-name>
+            <parent-name>[worldometers-2022-04-14.tsv]</parent-name>
+            <remote-alias>Tot Cases/1M pop</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[worldometers-2022-04-14.tsv_D1CE70BA9AB540B58A3454904BC389B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Deaths/1M pop</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Deaths/1M pop]</local-name>
+            <parent-name>[worldometers-2022-04-14.tsv]</parent-name>
+            <remote-alias>Deaths/1M pop</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[worldometers-2022-04-14.tsv_D1CE70BA9AB540B58A3454904BC389B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TotalTests</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TotalTests]</local-name>
+            <parent-name>[worldometers-2022-04-14.tsv]</parent-name>
+            <remote-alias>TotalTests</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[worldometers-2022-04-14.tsv_D1CE70BA9AB540B58A3454904BC389B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tests/1M pop</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Tests/1M pop]</local-name>
+            <parent-name>[worldometers-2022-04-14.tsv]</parent-name>
+            <remote-alias>Tests/1M pop</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[worldometers-2022-04-14.tsv_D1CE70BA9AB540B58A3454904BC389B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Population]</local-name>
+            <parent-name>[worldometers-2022-04-14.tsv]</parent-name>
+            <remote-alias>Population</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[worldometers-2022-04-14.tsv_D1CE70BA9AB540B58A3454904BC389B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Continent</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Continent]</local-name>
+            <parent-name>[worldometers-2022-04-14.tsv]</parent-name>
+            <remote-alias>Continent</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[worldometers-2022-04-14.tsv_D1CE70BA9AB540B58A3454904BC389B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Active Cases' datatype='real' name='[ActiveCases]' role='measure' type='quantitative' />
+      <column caption='Continent-ActiveCase' datatype='real' name='[Calculation_361695368710877184]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='WINDOW_SUM(SUM([ActiveCases])/Count([Continent]))'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='Continent-SeriousCase' datatype='real' name='[Calculation_361695368715190274]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='WINDOW_SUM(SUM([Serious,Critical])/Count([Continent]))'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column datatype='string' name='[Country,Other]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+        <semantic-values semantic-role='[Country].[Name]'>
+          <semantic-value key='&quot;S. Korea&quot;' value='&quot;South Korea&quot;' />
+        </semantic-values>
+      </column>
+      <column datatype='integer' name='[Deaths/1M pop]' role='measure' type='quantitative' />
+      <column caption='New Cases' datatype='real' name='[NewCases]' role='measure' type='quantitative' />
+      <column caption='New Deaths' datatype='real' name='[NewDeaths]' role='measure' type='quantitative' />
+      <column caption='New Recovered' datatype='string' name='[NewRecovered]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Population]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Serious,Critical]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Tot Cases/1M pop]' role='measure' type='quantitative' />
+      <column caption='Total Cases' datatype='integer' name='[TotalCases]' role='measure' type='quantitative' />
+      <column caption='Total Deaths' datatype='integer' name='[TotalDeaths]' role='measure' type='quantitative' />
+      <column caption='Total Recovered' datatype='string' name='[TotalRecovered]' role='dimension' type='nominal' />
+      <column caption='Total Tests' datatype='string' name='[TotalTests]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='worldometers-2022-04-14.tsv' datatype='table' name='[__tableau_internal_object_id__].[worldometers-2022-04-14.tsv_D1CE70BA9AB540B58A3454904BC389B0]' role='measure' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[worldometers-2022-04-14.tsv_D1CE70BA9AB540B58A3454904BC389B0]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:worldometers-2022-04-14.tsv_D1CE70BA9AB540B58A3454904BC389B0:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[ActiveCases]' derivation='None' name='[none:ActiveCases:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[ActiveCases]' derivation='Sum' name='[sum:ActiveCases:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Deaths/1M pop]' derivation='Sum' name='[sum:Deaths/1M pop:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[NewCases]' derivation='Sum' name='[sum:NewCases:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[NewDeaths]' derivation='Sum' name='[sum:NewDeaths:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Population]' derivation='Sum' name='[sum:Population:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Serious,Critical]' derivation='Sum' name='[sum:Serious,Critical:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tot Cases/1M pop]' derivation='Sum' name='[sum:Tot Cases/1M pop:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[TotalCases]' derivation='Sum' name='[sum:TotalCases:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[TotalDeaths]' derivation='Sum' name='[sum:TotalDeaths:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_361695368710877184]' derivation='User' name='[usr:Calculation_361695368710877184:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' />
+      </column-instance>
+      <column-instance column='[Calculation_361695368715190274]' derivation='User' name='[usr:Calculation_361695368715190274:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' />
+      </column-instance>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:ActiveCases:ok]' palette='blue_10_0' type='palette'>
+            <map to='#2a5783'>
+              <bucket>2673744.0</bucket>
+            </map>
+            <map to='#2a5783'>
+              <bucket>3804196.0</bucket>
+            </map>
+            <map to='#2b5884'>
+              <bucket>1570142.0</bucket>
+            </map>
+            <map to='#2c5985'>
+              <bucket>1227858.0</bucket>
+            </map>
+            <map to='#2c5985'>
+              <bucket>1483715.0</bucket>
+            </map>
+            <map to='#2d5a86'>
+              <bucket>1126705.0</bucket>
+            </map>
+            <map to='#2e5b87'>
+              <bucket>871358.0</bucket>
+            </map>
+            <map to='#2e5b88'>
+              <bucket>792678.0</bucket>
+            </map>
+            <map to='#2f5c88'>
+              <bucket>547012.0</bucket>
+            </map>
+            <map to='#305d89'>
+              <bucket>531850.0</bucket>
+            </map>
+            <map to='#305d8a'>
+              <bucket>504156.0</bucket>
+            </map>
+            <map to='#315e8a'>
+              <bucket>438240.0</bucket>
+            </map>
+            <map to='#325f8b'>
+              <bucket>416386.0</bucket>
+            </map>
+            <map to='#325f8c'>
+              <bucket>381625.0</bucket>
+            </map>
+            <map to='#33608d'>
+              <bucket>375236.0</bucket>
+            </map>
+            <map to='#34618d'>
+              <bucket>358804.0</bucket>
+            </map>
+            <map to='#34618e'>
+              <bucket>337586.0</bucket>
+            </map>
+            <map to='#35628f'>
+              <bucket>289164.0</bucket>
+            </map>
+            <map to='#36638f'>
+              <bucket>279280.0</bucket>
+            </map>
+            <map to='#366390'>
+              <bucket>229701.0</bucket>
+            </map>
+            <map to='#376491'>
+              <bucket>205599.0</bucket>
+            </map>
+            <map to='#376492'>
+              <bucket>204414.0</bucket>
+            </map>
+            <map to='#386592'>
+              <bucket>204192.0</bucket>
+            </map>
+            <map to='#386693'>
+              <bucket>191065.0</bucket>
+            </map>
+            <map to='#396694'>
+              <bucket>189951.0</bucket>
+            </map>
+            <map to='#3a6794'>
+              <bucket>168377.0</bucket>
+            </map>
+            <map to='#3a6895'>
+              <bucket>166417.0</bucket>
+            </map>
+            <map to='#3b6896'>
+              <bucket>160709.0</bucket>
+            </map>
+            <map to='#3b6996'>
+              <bucket>155347.0</bucket>
+            </map>
+            <map to='#3c6997'>
+              <bucket>153803.0</bucket>
+            </map>
+            <map to='#3c6a98'>
+              <bucket>146497.0</bucket>
+            </map>
+            <map to='#3d6b98'>
+              <bucket>143177.0</bucket>
+            </map>
+            <map to='#3e6b99'>
+              <bucket>137026.0</bucket>
+            </map>
+            <map to='#3e6c9a'>
+              <bucket>128641.0</bucket>
+            </map>
+            <map to='#3f6c9a'>
+              <bucket>120592.0</bucket>
+            </map>
+            <map to='#3f6d9b'>
+              <bucket>108179.0</bucket>
+            </map>
+            <map to='#406e9c'>
+              <bucket>82775.0</bucket>
+            </map>
+            <map to='#406e9c'>
+              <bucket>89057.0</bucket>
+            </map>
+            <map to='#416f9d'>
+              <bucket>80530.0</bucket>
+            </map>
+            <map to='#42709e'>
+              <bucket>67881.0</bucket>
+            </map>
+            <map to='#42709e'>
+              <bucket>70545.0</bucket>
+            </map>
+            <map to='#43719f'>
+              <bucket>66475.0</bucket>
+            </map>
+            <map to='#4372a0'>
+              <bucket>65090.0</bucket>
+            </map>
+            <map to='#4472a0'>
+              <bucket>64477.0</bucket>
+            </map>
+            <map to='#4473a1'>
+              <bucket>63240.0</bucket>
+            </map>
+            <map to='#4574a2'>
+              <bucket>53567.0</bucket>
+            </map>
+            <map to='#4574a2'>
+              <bucket>60228.0</bucket>
+            </map>
+            <map to='#4675a3'>
+              <bucket>45273.0</bucket>
+            </map>
+            <map to='#4676a4'>
+              <bucket>44013.0</bucket>
+            </map>
+            <map to='#4776a4'>
+              <bucket>39998.0</bucket>
+            </map>
+            <map to='#4777a5'>
+              <bucket>39739.0</bucket>
+            </map>
+            <map to='#4878a6'>
+              <bucket>37887.0</bucket>
+            </map>
+            <map to='#4878a6'>
+              <bucket>38119.0</bucket>
+            </map>
+            <map to='#4979a7'>
+              <bucket>36228.0</bucket>
+            </map>
+            <map to='#497aa8'>
+              <bucket>34901.0</bucket>
+            </map>
+            <map to='#4a7aa8'>
+              <bucket>34481.0</bucket>
+            </map>
+            <map to='#4a7ba9'>
+              <bucket>33807.0</bucket>
+            </map>
+            <map to='#4b7caa'>
+              <bucket>31599.0</bucket>
+            </map>
+            <map to='#4b7caa'>
+              <bucket>33159.0</bucket>
+            </map>
+            <map to='#4c7dab'>
+              <bucket>29615.0</bucket>
+            </map>
+            <map to='#4d7eab'>
+              <bucket>28556.0</bucket>
+            </map>
+            <map to='#4d7eac'>
+              <bucket>27329.0</bucket>
+            </map>
+            <map to='#4e7fac'>
+              <bucket>26937.0</bucket>
+            </map>
+            <map to='#4f80ad'>
+              <bucket>25134.0</bucket>
+            </map>
+            <map to='#4f80ae'>
+              <bucket>24899.0</bucket>
+            </map>
+            <map to='#5081ae'>
+              <bucket>22822.0</bucket>
+            </map>
+            <map to='#5182af'>
+              <bucket>17272.0</bucket>
+            </map>
+            <map to='#5182af'>
+              <bucket>21681.0</bucket>
+            </map>
+            <map to='#5283b0'>
+              <bucket>16619.0</bucket>
+            </map>
+            <map to='#5384b0'>
+              <bucket>15345.0</bucket>
+            </map>
+            <map to='#5384b1'>
+              <bucket>14328.0</bucket>
+            </map>
+            <map to='#5485b2'>
+              <bucket>14064.0</bucket>
+            </map>
+            <map to='#5586b2'>
+              <bucket>14041.0</bucket>
+            </map>
+            <map to='#5586b3'>
+              <bucket>12543.0</bucket>
+            </map>
+            <map to='#5687b3'>
+              <bucket>11939.0</bucket>
+            </map>
+            <map to='#5788b4'>
+              <bucket>10995.0</bucket>
+            </map>
+            <map to='#5788b4'>
+              <bucket>11705.0</bucket>
+            </map>
+            <map to='#5889b5'>
+              <bucket>10936.0</bucket>
+            </map>
+            <map to='#598ab6'>
+              <bucket>9866.0</bucket>
+            </map>
+            <map to='#598ab6'>
+              <bucket>10139.0</bucket>
+            </map>
+            <map to='#5a8bb7'>
+              <bucket>9394.0</bucket>
+            </map>
+            <map to='#5b8cb7'>
+              <bucket>9202.0</bucket>
+            </map>
+            <map to='#5b8cb8'>
+              <bucket>9189.0</bucket>
+            </map>
+            <map to='#5c8db8'>
+              <bucket>9079.0</bucket>
+            </map>
+            <map to='#5d8eb9'>
+              <bucket>9045.0</bucket>
+            </map>
+            <map to='#5e8fb9'>
+              <bucket>8714.0</bucket>
+            </map>
+            <map to='#5e8fba'>
+              <bucket>8058.0</bucket>
+            </map>
+            <map to='#5f90bb'>
+              <bucket>7677.0</bucket>
+            </map>
+            <map to='#6091bb'>
+              <bucket>7303.0</bucket>
+            </map>
+            <map to='#6091bc'>
+              <bucket>7266.0</bucket>
+            </map>
+            <map to='#6192bc'>
+              <bucket>6927.0</bucket>
+            </map>
+            <map to='#6293bd'>
+              <bucket>6144.0</bucket>
+            </map>
+            <map to='#6394bd'>
+              <bucket>5999.0</bucket>
+            </map>
+            <map to='#6394be'>
+              <bucket>5115.0</bucket>
+            </map>
+            <map to='#6495bf'>
+              <bucket>5039.0</bucket>
+            </map>
+            <map to='#6596bf'>
+              <bucket>4568.0</bucket>
+            </map>
+            <map to='#6596c0'>
+              <bucket>4239.0</bucket>
+            </map>
+            <map to='#6697c0'>
+              <bucket>4206.0</bucket>
+            </map>
+            <map to='#6798c1'>
+              <bucket>3724.0</bucket>
+            </map>
+            <map to='#6899c1'>
+              <bucket>3710.0</bucket>
+            </map>
+            <map to='#6899c2'>
+              <bucket>3703.0</bucket>
+            </map>
+            <map to='#699ac2'>
+              <bucket>3516.0</bucket>
+            </map>
+            <map to='#6a9bc3'>
+              <bucket>3344.0</bucket>
+            </map>
+            <map to='#6a9bc4'>
+              <bucket>3260.0</bucket>
+            </map>
+            <map to='#6b9cc4'>
+              <bucket>3068.0</bucket>
+            </map>
+            <map to='#6c9dc5'>
+              <bucket>2889.0</bucket>
+            </map>
+            <map to='#6d9ec5'>
+              <bucket>2666.0</bucket>
+            </map>
+            <map to='#6d9ec6'>
+              <bucket>2478.0</bucket>
+            </map>
+            <map to='#6e9fc6'>
+              <bucket>2467.0</bucket>
+            </map>
+            <map to='#6fa0c7'>
+              <bucket>2399.0</bucket>
+            </map>
+            <map to='#6fa0c8'>
+              <bucket>2312.0</bucket>
+            </map>
+            <map to='#70a1c8'>
+              <bucket>2243.0</bucket>
+            </map>
+            <map to='#71a2c9'>
+              <bucket>1933.0</bucket>
+            </map>
+            <map to='#72a3c9'>
+              <bucket>1887.0</bucket>
+            </map>
+            <map to='#72a3ca'>
+              <bucket>1878.0</bucket>
+            </map>
+            <map to='#73a4ca'>
+              <bucket>1850.0</bucket>
+            </map>
+            <map to='#74a5cb'>
+              <bucket>1676.0</bucket>
+            </map>
+            <map to='#75a6cc'>
+              <bucket>1535.0</bucket>
+            </map>
+            <map to='#75a6cc'>
+              <bucket>1633.0</bucket>
+            </map>
+            <map to='#76a7cd'>
+              <bucket>1361.0</bucket>
+            </map>
+            <map to='#77a8cd'>
+              <bucket>1283.0</bucket>
+            </map>
+            <map to='#77a8ce'>
+              <bucket>1266.0</bucket>
+            </map>
+            <map to='#78a9ce'>
+              <bucket>1243.0</bucket>
+            </map>
+            <map to='#79aacf'>
+              <bucket>1227.0</bucket>
+            </map>
+            <map to='#7aaacf'>
+              <bucket>1196.0</bucket>
+            </map>
+            <map to='#7aabd0'>
+              <bucket>1172.0</bucket>
+            </map>
+            <map to='#7bacd1'>
+              <bucket>1171.0</bucket>
+            </map>
+            <map to='#7cacd1'>
+              <bucket>1135.0</bucket>
+            </map>
+            <map to='#7cadd2'>
+              <bucket>1089.0</bucket>
+            </map>
+            <map to='#7daed2'>
+              <bucket>978.0</bucket>
+            </map>
+            <map to='#7eaed3'>
+              <bucket>950.0</bucket>
+            </map>
+            <map to='#7fafd3'>
+              <bucket>947.0</bucket>
+            </map>
+            <map to='#7fb0d4'>
+              <bucket>946.0</bucket>
+            </map>
+            <map to='#80b0d5'>
+              <bucket>806.0</bucket>
+            </map>
+            <map to='#81b1d5'>
+              <bucket>739.0</bucket>
+            </map>
+            <map to='#81b2d6'>
+              <bucket>725.0</bucket>
+            </map>
+            <map to='#82b2d6'>
+              <bucket>715.0</bucket>
+            </map>
+            <map to='#83b3d7'>
+              <bucket>713.0</bucket>
+            </map>
+            <map to='#84b4d7'>
+              <bucket>704.0</bucket>
+            </map>
+            <map to='#85b4d8'>
+              <bucket>697.0</bucket>
+            </map>
+            <map to='#86b5d8'>
+              <bucket>668.0</bucket>
+            </map>
+            <map to='#86b6d9'>
+              <bucket>651.0</bucket>
+            </map>
+            <map to='#87b7d9'>
+              <bucket>639.0</bucket>
+            </map>
+            <map to='#88b8da'>
+              <bucket>577.0</bucket>
+            </map>
+            <map to='#89b8da'>
+              <bucket>557.0</bucket>
+            </map>
+            <map to='#8ab9db'>
+              <bucket>556.0</bucket>
+            </map>
+            <map to='#8bbadb'>
+              <bucket>520.0</bucket>
+            </map>
+            <map to='#8cbbdc'>
+              <bucket>461.0</bucket>
+            </map>
+            <map to='#8dbbdc'>
+              <bucket>451.0</bucket>
+            </map>
+            <map to='#8dbcdd'>
+              <bucket>352.0</bucket>
+            </map>
+            <map to='#8ebddd'>
+              <bucket>349.0</bucket>
+            </map>
+            <map to='#8fbede'>
+              <bucket>344.0</bucket>
+            </map>
+            <map to='#90bede'>
+              <bucket>326.0</bucket>
+            </map>
+            <map to='#91bfdf'>
+              <bucket>325.0</bucket>
+            </map>
+            <map to='#92c0df'>
+              <bucket>313.0</bucket>
+            </map>
+            <map to='#93c1e0'>
+              <bucket>254.0</bucket>
+            </map>
+            <map to='#94c2e1'>
+              <bucket>220.0</bucket>
+            </map>
+            <map to='#94c2e1'>
+              <bucket>227.0</bucket>
+            </map>
+            <map to='#95c3e1'>
+              <bucket>186.0</bucket>
+            </map>
+            <map to='#96c4e2'>
+              <bucket>185.0</bucket>
+            </map>
+            <map to='#97c4e2'>
+              <bucket>184.0</bucket>
+            </map>
+            <map to='#98c5e3'>
+              <bucket>145.0</bucket>
+            </map>
+            <map to='#99c6e3'>
+              <bucket>138.0</bucket>
+            </map>
+            <map to='#9ac7e4'>
+              <bucket>119.0</bucket>
+            </map>
+            <map to='#9bc7e4'>
+              <bucket>98.0</bucket>
+            </map>
+            <map to='#9cc8e5'>
+              <bucket>87.0</bucket>
+            </map>
+            <map to='#9dc9e5'>
+              <bucket>86.0</bucket>
+            </map>
+            <map to='#9ec9e6'>
+              <bucket>84.0</bucket>
+            </map>
+            <map to='#9fcae6'>
+              <bucket>83.0</bucket>
+            </map>
+            <map to='#a0cbe7'>
+              <bucket>66.0</bucket>
+            </map>
+            <map to='#a0cce7'>
+              <bucket>64.0</bucket>
+            </map>
+            <map to='#a1cce7'>
+              <bucket>63.0</bucket>
+            </map>
+            <map to='#a2cde8'>
+              <bucket>62.0</bucket>
+            </map>
+            <map to='#a3cee8'>
+              <bucket>60.0</bucket>
+            </map>
+            <map to='#a4cee9'>
+              <bucket>50.0</bucket>
+            </map>
+            <map to='#a5cfe9'>
+              <bucket>46.0</bucket>
+            </map>
+            <map to='#a6d0ea'>
+              <bucket>43.0</bucket>
+            </map>
+            <map to='#a7d1ea'>
+              <bucket>38.0</bucket>
+            </map>
+            <map to='#a8d1ea'>
+              <bucket>37.0</bucket>
+            </map>
+            <map to='#a9d2eb'>
+              <bucket>34.0</bucket>
+            </map>
+            <map to='#aad3eb'>
+              <bucket>32.0</bucket>
+            </map>
+            <map to='#abd3eb'>
+              <bucket>26.0</bucket>
+            </map>
+            <map to='#acd4ec'>
+              <bucket>21.0</bucket>
+            </map>
+            <map to='#add5ec'>
+              <bucket>19.0</bucket>
+            </map>
+            <map to='#aed5ed'>
+              <bucket>15.0</bucket>
+            </map>
+            <map to='#afd6ed'>
+              <bucket>12.0</bucket>
+            </map>
+            <map to='#b0d7ed'>
+              <bucket>9.0</bucket>
+            </map>
+            <map to='#b1d7ee'>
+              <bucket>7.0</bucket>
+            </map>
+            <map to='#b2d8ee'>
+              <bucket>6.0</bucket>
+            </map>
+            <map to='#b3d9ee'>
+              <bucket>5.0</bucket>
+            </map>
+            <map to='#b4d9ef'>
+              <bucket>4.0</bucket>
+            </map>
+            <map to='#b5daef'>
+              <bucket>3.0</bucket>
+            </map>
+            <map to='#b6dbef'>
+              <bucket>2.0</bucket>
+            </map>
+            <map to='#b7dbf0'>
+              <bucket>1.0</bucket>
+            </map>
+            <map to='#b8dcf0'>
+              <bucket>0.0</bucket>
+            </map>
+            <map to='#b9ddf1'>
+              <bucket>%null%</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1ig8jb20ipqr2f1cygrjc15cpl6o]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1ig8jb20ipqr2f1cygrjc15cpl6o].[sum:ActiveCases:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1ig8jb20ipqr2f1cygrjc15cpl6o].[sum:Deaths/1M pop:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1ig8jb20ipqr2f1cygrjc15cpl6o].[sum:NewCases:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1ig8jb20ipqr2f1cygrjc15cpl6o].[__tableau_internal_object_id__].[cnt:worldometers-2022-04-14.tsv_D1CE70BA9AB540B58A3454904BC389B0:qk]&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;[federated.1ig8jb20ipqr2f1cygrjc15cpl6o].[sum:NewDeaths:qk]&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;[federated.1ig8jb20ipqr2f1cygrjc15cpl6o].[sum:TotalCases:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.1ig8jb20ipqr2f1cygrjc15cpl6o].[sum:Serious,Critical:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.1ig8jb20ipqr2f1cygrjc15cpl6o].[sum:TotalDeaths:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1ig8jb20ipqr2f1cygrjc15cpl6o].[usr:Calculation_361695368715190274:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.1ig8jb20ipqr2f1cygrjc15cpl6o].[sum:Population:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1ig8jb20ipqr2f1cygrjc15cpl6o].[usr:Calculation_361695368710877184:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.1ig8jb20ipqr2f1cygrjc15cpl6o].[sum:Tot Cases/1M pop:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Viet Nam&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='worldometers-2022-04-14.tsv' id='worldometers-2022-04-14.tsv_D1CE70BA9AB540B58A3454904BC389B0'>
+            <properties context=''>
+              <relation connection='textscan.0qcuq8k0zkd2jy1g1knmw0jree4q' name='worldometers-2022-04-14.tsv' table='[worldometers-2022-04-14#tsv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator='&#9;'>
+                  <column datatype='string' name='Country,Other' ordinal='0' />
+                  <column datatype='integer' name='TotalCases' ordinal='1' />
+                  <column datatype='real' name='NewCases' ordinal='2' />
+                  <column datatype='integer' name='TotalDeaths' ordinal='3' />
+                  <column datatype='real' name='NewDeaths' ordinal='4' />
+                  <column datatype='string' name='TotalRecovered' ordinal='5' />
+                  <column datatype='string' name='NewRecovered' ordinal='6' />
+                  <column datatype='real' name='ActiveCases' ordinal='7' />
+                  <column datatype='real' name='Serious,Critical' ordinal='8' />
+                  <column datatype='integer' name='Tot Cases/1M pop' ordinal='9' />
+                  <column datatype='integer' name='Deaths/1M pop' ordinal='10' />
+                  <column datatype='string' name='TotalTests' ordinal='11' />
+                  <column datatype='string' name='Tests/1M pop' ordinal='12' />
+                  <column datatype='integer' name='Population' ordinal='13' />
+                  <column datatype='string' name='Continent' ordinal='14' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='World' inline='true' name='federated.1gcslt8008zfai1cboxhm1uo3sym' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='World' name='textscan.1w3uul81ig0x2l1aa33no19pvd5w'>
+            <connection class='textscan' directory='D:/GitHub/Worldometers-explorer/combined' filename='World.tsv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1w3uul81ig0x2l1aa33no19pvd5w' name='World.tsv' table='[World#tsv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator='&#9;'>
+            <column datatype='date' name='Date' ordinal='0' />
+            <column datatype='real' name='TotalCases' ordinal='1' />
+            <column datatype='real' name='NewCases' ordinal='2' />
+            <column datatype='real' name='TotalDeaths' ordinal='3' />
+            <column datatype='real' name='NewDeaths' ordinal='4' />
+            <column datatype='real' name='TotalRecovered' ordinal='5' />
+            <column datatype='real' name='NewRecovered' ordinal='6' />
+            <column datatype='real' name='ActiveCases' ordinal='7' />
+            <column datatype='real' name='Serious,Critical' ordinal='8' />
+            <column datatype='real' name='Tot Cases/1M pop' ordinal='9' />
+            <column datatype='real' name='Deaths/1M pop' ordinal='10' />
+            <column datatype='real' name='TotalTests' ordinal='11' />
+            <column datatype='real' name='Tests/1M pop' ordinal='12' />
+            <column datatype='real' name='Population' ordinal='13' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1w3uul81ig0x2l1aa33no19pvd5w' name='World.tsv' table='[World#tsv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator='&#9;'>
+            <column datatype='date' name='Date' ordinal='0' />
+            <column datatype='real' name='TotalCases' ordinal='1' />
+            <column datatype='real' name='NewCases' ordinal='2' />
+            <column datatype='real' name='TotalDeaths' ordinal='3' />
+            <column datatype='real' name='NewDeaths' ordinal='4' />
+            <column datatype='real' name='TotalRecovered' ordinal='5' />
+            <column datatype='real' name='NewRecovered' ordinal='6' />
+            <column datatype='real' name='ActiveCases' ordinal='7' />
+            <column datatype='real' name='Serious,Critical' ordinal='8' />
+            <column datatype='real' name='Tot Cases/1M pop' ordinal='9' />
+            <column datatype='real' name='Deaths/1M pop' ordinal='10' />
+            <column datatype='real' name='TotalTests' ordinal='11' />
+            <column datatype='real' name='Tests/1M pop' ordinal='12' />
+            <column datatype='real' name='Population' ordinal='13' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[World.tsv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;\\t&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[World.tsv]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[World.tsv_7ED4E53991BF4E1CB68CC560A56DB886]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TotalCases</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TotalCases]</local-name>
+            <parent-name>[World.tsv]</parent-name>
+            <remote-alias>TotalCases</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[World.tsv_7ED4E53991BF4E1CB68CC560A56DB886]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NewCases</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NewCases]</local-name>
+            <parent-name>[World.tsv]</parent-name>
+            <remote-alias>NewCases</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[World.tsv_7ED4E53991BF4E1CB68CC560A56DB886]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TotalDeaths</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TotalDeaths]</local-name>
+            <parent-name>[World.tsv]</parent-name>
+            <remote-alias>TotalDeaths</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[World.tsv_7ED4E53991BF4E1CB68CC560A56DB886]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NewDeaths</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NewDeaths]</local-name>
+            <parent-name>[World.tsv]</parent-name>
+            <remote-alias>NewDeaths</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[World.tsv_7ED4E53991BF4E1CB68CC560A56DB886]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TotalRecovered</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TotalRecovered]</local-name>
+            <parent-name>[World.tsv]</parent-name>
+            <remote-alias>TotalRecovered</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[World.tsv_7ED4E53991BF4E1CB68CC560A56DB886]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NewRecovered</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NewRecovered]</local-name>
+            <parent-name>[World.tsv]</parent-name>
+            <remote-alias>NewRecovered</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[World.tsv_7ED4E53991BF4E1CB68CC560A56DB886]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ActiveCases</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ActiveCases]</local-name>
+            <parent-name>[World.tsv]</parent-name>
+            <remote-alias>ActiveCases</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[World.tsv_7ED4E53991BF4E1CB68CC560A56DB886]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Serious,Critical</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Serious,Critical]</local-name>
+            <parent-name>[World.tsv]</parent-name>
+            <remote-alias>Serious,Critical</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[World.tsv_7ED4E53991BF4E1CB68CC560A56DB886]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tot Cases/1M pop</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Tot Cases/1M pop]</local-name>
+            <parent-name>[World.tsv]</parent-name>
+            <remote-alias>Tot Cases/1M pop</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[World.tsv_7ED4E53991BF4E1CB68CC560A56DB886]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Deaths/1M pop</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Deaths/1M pop]</local-name>
+            <parent-name>[World.tsv]</parent-name>
+            <remote-alias>Deaths/1M pop</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[World.tsv_7ED4E53991BF4E1CB68CC560A56DB886]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TotalTests</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TotalTests]</local-name>
+            <parent-name>[World.tsv]</parent-name>
+            <remote-alias>TotalTests</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[World.tsv_7ED4E53991BF4E1CB68CC560A56DB886]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tests/1M pop</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Tests/1M pop]</local-name>
+            <parent-name>[World.tsv]</parent-name>
+            <remote-alias>Tests/1M pop</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[World.tsv_7ED4E53991BF4E1CB68CC560A56DB886]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Population]</local-name>
+            <parent-name>[World.tsv]</parent-name>
+            <remote-alias>Population</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[World.tsv_7ED4E53991BF4E1CB68CC560A56DB886]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Active Cases' datatype='real' name='[ActiveCases]' role='measure' type='quantitative' />
+      <column caption='Regression(NewCase~Serious)' datatype='real' name='[Calculation_361695368725520388]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='-5.414e+05 + 29.7616*[Serious,Critical]' />
+      </column>
+      <column caption='New Cases' datatype='real' name='[NewCases]' role='measure' type='quantitative' />
+      <column caption='New Deaths' datatype='real' name='[NewDeaths]' role='measure' type='quantitative' />
+      <column caption='New Recovered' datatype='real' name='[NewRecovered]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Serious,Critical]' role='measure' type='quantitative' />
+      <column caption='Total Cases' datatype='real' name='[TotalCases]' role='measure' type='quantitative' />
+      <column caption='Total Deaths' datatype='real' name='[TotalDeaths]' role='measure' type='quantitative' />
+      <column caption='Total Recovered' datatype='real' name='[TotalRecovered]' role='measure' type='quantitative' />
+      <column caption='Total Tests' datatype='real' name='[TotalTests]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='World.tsv' datatype='table' name='[__tableau_internal_object_id__].[World.tsv_7ED4E53991BF4E1CB68CC560A56DB886]' role='measure' type='quantitative' />
+      <column-instance column='[Serious,Critical]' derivation='None' name='[none:Serious,Critical:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Serious,Critical]' derivation='Sum' name='[sum:Serious,Critical:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1gcslt8008zfai1cboxhm1uo3sym]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1gcslt8008zfai1cboxhm1uo3sym].[none:Serious,Critical:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1gcslt8008zfai1cboxhm1uo3sym].[sum:Serious,Critical:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Viet Nam&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='World.tsv' id='World.tsv_7ED4E53991BF4E1CB68CC560A56DB886'>
+            <properties context=''>
+              <relation connection='textscan.1w3uul81ig0x2l1aa33no19pvd5w' name='World.tsv' table='[World#tsv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator='&#9;'>
+                  <column datatype='date' name='Date' ordinal='0' />
+                  <column datatype='real' name='TotalCases' ordinal='1' />
+                  <column datatype='real' name='NewCases' ordinal='2' />
+                  <column datatype='real' name='TotalDeaths' ordinal='3' />
+                  <column datatype='real' name='NewDeaths' ordinal='4' />
+                  <column datatype='real' name='TotalRecovered' ordinal='5' />
+                  <column datatype='real' name='NewRecovered' ordinal='6' />
+                  <column datatype='real' name='ActiveCases' ordinal='7' />
+                  <column datatype='real' name='Serious,Critical' ordinal='8' />
+                  <column datatype='real' name='Tot Cases/1M pop' ordinal='9' />
+                  <column datatype='real' name='Deaths/1M pop' ordinal='10' />
+                  <column datatype='real' name='TotalTests' ordinal='11' />
+                  <column datatype='real' name='Tests/1M pop' ordinal='12' />
+                  <column datatype='real' name='Population' ordinal='13' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='CasesProportions'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Proportion of Active cases and Serious,Critical cases</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='worldometers-2022-04-14.tsv (Multiple Connections)' name='federated.1ig8jb20ipqr2f1cygrjc15cpl6o' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ig8jb20ipqr2f1cygrjc15cpl6o'>
+            <column caption='Active Cases' datatype='real' name='[ActiveCases]' role='measure' type='quantitative' />
+            <column caption='Continent-ActiveCase' datatype='real' name='[Calculation_361695368710877184]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='WINDOW_SUM(SUM([ActiveCases])/Count([Continent]))'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Continent-SeriousCase' datatype='real' name='[Calculation_361695368715190274]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='WINDOW_SUM(SUM([Serious,Critical])/Count([Continent]))'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='-[Continent-ActiveCase]' datatype='real' name='[Calculation_361695368717836291]' role='measure' type='quantitative' user:unnamed='Sheet 1'>
+              <calculation class='tableau' formula='-[Calculation_361695368710877184]'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column datatype='string' name='[Continent]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Serious,Critical]' role='measure' type='quantitative' />
+            <column-instance column='[Continent]' derivation='None' name='[none:Continent:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Serious,Critical]' derivation='Sum' name='[sum:Serious,Critical:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_361695368710877184]' derivation='User' name='[usr:Calculation_361695368710877184:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='CellInPane' />
+            </column-instance>
+            <column-instance column='[Calculation_361695368715190274]' derivation='User' name='[usr:Calculation_361695368715190274:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' />
+            </column-instance>
+            <column-instance column='[Calculation_361695368715190274]' derivation='User' name='[usr:Calculation_361695368715190274:qk:3]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='CellInPane' />
+            </column-instance>
+            <column-instance column='[Calculation_361695368717836291]' derivation='User' name='[usr:Calculation_361695368717836291:qk:1]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='CellInPane' />
+              <table-calc field='[federated.1ig8jb20ipqr2f1cygrjc15cpl6o].[Calculation_361695368710877184]' ordering-type='CellInPane' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ig8jb20ipqr2f1cygrjc15cpl6o].[none:Continent:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Continent:nk]' />
+              <groupfilter function='member' level='[none:Continent:nk]' member='&quot;N/A&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1ig8jb20ipqr2f1cygrjc15cpl6o].[none:Continent:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1ig8jb20ipqr2f1cygrjc15cpl6o].[none:Continent:nk]' value='35' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='text-align' data-class='total' scope='rows' value='auto' />
+            <format attr='text-align' data-class='subtotal' scope='rows' value='auto' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='406' />
+                <format attr='maxwidth' value='406' />
+                <format attr='minheight' value='140' />
+                <format attr='maxheight' value='140' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1ig8jb20ipqr2f1cygrjc15cpl6o].[usr:Calculation_361695368717836291:qk:1]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <text column='[federated.1ig8jb20ipqr2f1cygrjc15cpl6o].[usr:Calculation_361695368710877184:qk:2]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1ig8jb20ipqr2f1cygrjc15cpl6o].[usr:Calculation_361695368715190274:qk:3]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <text column='[federated.1ig8jb20ipqr2f1cygrjc15cpl6o].[usr:Calculation_361695368715190274:qk:2]' />
+              <text column='[federated.1ig8jb20ipqr2f1cygrjc15cpl6o].[sum:Serious,Critical:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run><![CDATA[<[federated.1ig8jb20ipqr2f1cygrjc15cpl6o].[sum:Serious,Critical:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ig8jb20ipqr2f1cygrjc15cpl6o].[none:Continent:nk]</rows>
+        <cols>([federated.1ig8jb20ipqr2f1cygrjc15cpl6o].[usr:Calculation_361695368717836291:qk:1] + [federated.1ig8jb20ipqr2f1cygrjc15cpl6o].[usr:Calculation_361695368715190274:qk:3])</cols>
+      </table>
+      <simple-id uuid='{D67D4183-69F4-4DD8-8579-5F6337334301}' />
+    </worksheet>
+    <worksheet name='CasesTrends'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Active cases and Serious, Critical cases trends
+</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='World' name='federated.1gcslt8008zfai1cboxhm1uo3sym' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1gcslt8008zfai1cboxhm1uo3sym'>
+            <column caption='Active Cases' datatype='real' name='[ActiveCases]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Serious,Critical]' role='measure' type='quantitative' />
+            <column-instance column='[ActiveCases]' derivation='Sum' name='[sum:ActiveCases:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Serious,Critical]' derivation='Sum' name='[sum:Serious,Critical:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Day-Trunc' name='[tdy:Date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-markers-mode' value='auto' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1gcslt8008zfai1cboxhm1uo3sym].[sum:ActiveCases:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-markers-mode' value='auto' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1gcslt8008zfai1cboxhm1uo3sym].[sum:Serious,Critical:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-markers-mode' value='auto' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1gcslt8008zfai1cboxhm1uo3sym].[sum:ActiveCases:qk] + [federated.1gcslt8008zfai1cboxhm1uo3sym].[sum:Serious,Critical:qk])</rows>
+        <cols>[federated.1gcslt8008zfai1cboxhm1uo3sym].[tdy:Date:qk]</cols>
+      </table>
+      <simple-id uuid='{83298DB1-C264-4D37-A4D8-5FC12C0D3CE5}' />
+    </worksheet>
+    <worksheet name='RelationCases'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Relationship between New cases and Serious,Critical cases
+</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='World' name='federated.1gcslt8008zfai1cboxhm1uo3sym' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1gcslt8008zfai1cboxhm1uo3sym'>
+            <column caption='New Cases' datatype='real' name='[NewCases]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Serious,Critical]' role='measure' type='quantitative' />
+            <column-instance column='[NewCases]' derivation='None' name='[none:NewCases:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Serious,Critical]' derivation='None' name='[none:Serious,Critical:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.1gcslt8008zfai1cboxhm1uo3sym].[:Measure Names]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+        </panes>
+        <rows>[federated.1gcslt8008zfai1cboxhm1uo3sym].[none:Serious,Critical:qk]</rows>
+        <cols>[federated.1gcslt8008zfai1cboxhm1uo3sym].[none:NewCases:qk]</cols>
+      </table>
+      <simple-id uuid='{D185F070-EFEA-4B75-9087-36B55E2D6DE9}' />
+    </worksheet>
+    <worksheet name='Sheet 5'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{2EC86786-1423-4EB4-A3F4-7ABEC3B16888}' />
+    </worksheet>
+    <worksheet name='Wordmap'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>World Active Cases</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='worldometers-2022-04-14.tsv (Multiple Connections)' name='federated.1ig8jb20ipqr2f1cygrjc15cpl6o' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1ig8jb20ipqr2f1cygrjc15cpl6o'>
+            <column caption='Active Cases' datatype='real' name='[ActiveCases]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Country,Other]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+              <semantic-values semantic-role='[Country].[Name]'>
+                <semantic-value key='&quot;S. Korea&quot;' value='&quot;South Korea&quot;' />
+              </semantic-values>
+            </column>
+            <column-instance column='[ActiveCases]' derivation='None' name='[none:ActiveCases:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Country,Other]' derivation='None' name='[none:Country,Other:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1ig8jb20ipqr2f1cygrjc15cpl6o].[Longitude (generated)]' field-type='quantitative' max='-21140665.637697347' min='-58659012.382584646' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1ig8jb20ipqr2f1cygrjc15cpl6o].[Latitude (generated)]' field-type='quantitative' max='10283801.697220065' min='-7919685.9794595512' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='b01002_001e' value='false' />
+            <format attr='enabled' id='b01002_002e' value='false' />
+            <format attr='enabled' id='b01002_003e' value='false' />
+            <format attr='enabled' id='dp02_0001e' value='false' />
+            <format attr='enabled' id='dp02_0015e' value='false' />
+            <format attr='enabled' id='dp03_0027e_plus_dp03_0029e' value='false' />
+            <format attr='enabled' id='dp03_0028e' value='false' />
+            <format attr='enabled' id='dp03_0030e_plus_dp03_0031e' value='false' />
+            <format attr='enabled' id='dp03_0062e' value='false' />
+            <format attr='enabled' id='dp03_0088e' value='false' />
+            <format attr='enabled' id='dp04_0001e' value='false' />
+            <format attr='enabled' id='dp04_0046e' value='false' />
+            <format attr='enabled' id='dp04_0047e' value='false' />
+            <format attr='enabled' id='dp04_0089e' value='false' />
+            <format attr='enabled' id='dp05_0001e' value='false' />
+            <format attr='enabled' id='dp05_0002e_div_dp05_0003e' value='false' />
+            <format attr='enabled' id='dp05_0032e' value='false' />
+            <format attr='enabled' id='dp05_0033e' value='false' />
+            <format attr='enabled' id='dp05_0034e' value='false' />
+            <format attr='enabled' id='dp05_0039e' value='false' />
+            <format attr='enabled' id='dp05_0047e' value='false' />
+            <format attr='enabled' id='dp05_0053e' value='false' />
+            <format attr='enabled' id='dp05_0066e' value='false' />
+            <format attr='enabled' id='dp05_0077e' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0' />
+            <format attr='map-style' value='light' />
+          </style-rule>
+          <style-rule element='map-data-layer'>
+            <format attr='palette' value='tableau-map-blue-green-light' />
+            <format attr='geo-area-type' value='State' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <color column='[federated.1ig8jb20ipqr2f1cygrjc15cpl6o].[none:ActiveCases:ok]' />
+              <lod column='[federated.1ig8jb20ipqr2f1cygrjc15cpl6o].[none:Country,Other:nk]' />
+              <geometry column='[federated.1ig8jb20ipqr2f1cygrjc15cpl6o].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1ig8jb20ipqr2f1cygrjc15cpl6o].[Latitude (generated)]</rows>
+        <cols>[federated.1ig8jb20ipqr2f1cygrjc15cpl6o].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{27318043-2EFC-401F-9A03-6E9BD7FC123A}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='ActiveSeriousNew'>
+      <style />
+      <size maxheight='900' maxwidth='1600' minheight='900' minwidth='1600' preset-index='8' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98222' id='13' param='horz' type-v2='layout-flow' w='99000' x='500' y='889'>
+            <zone h='98222' id='8' type-v2='layout-basic' w='99000' x='500' y='889'>
+              <zone h='47111' id='5' name='CasesTrends' w='37250' x='62250' y='889'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='38889' id='6' name='CasesProportions' w='61750' x='500' y='60222'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='51111' id='7' name='RelationCases' w='37250' x='62250' y='48000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='59333' id='14' name='Wordmap' w='61750' x='500' y='889'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1200' minheight='1200' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='22' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98222' id='21' param='vert' type-v2='layout-flow' w='99000' x='500' y='889'>
+                <zone fixed-size='280' h='59333' id='14' is-fixed='true' name='Wordmap' w='61750' x='500' y='889'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='47111' id='5' is-fixed='true' name='CasesTrends' w='37250' x='62250' y='889'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='51111' id='7' is-fixed='true' name='RelationCases' w='37250' x='62250' y='48000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='38889' id='6' is-fixed='true' name='CasesProportions' w='61750' x='500' y='60222'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{AD541ECD-FF22-43B5-9DC3-4D7CA2378A28}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='63'>
+    <window class='worksheet' name='CasesProportions'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{2653DD1F-E56B-467A-BDC8-7653E576FC03}' />
+    </window>
+    <window class='worksheet' name='CasesTrends'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{DF773735-4E1E-42F0-8E35-E65D7CCDA53F}' />
+    </window>
+    <window class='worksheet' name='RelationCases'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.1gcslt8008zfai1cboxhm1uo3sym].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{95CEE5B2-88CB-4DF8-B18E-691920F55190}' />
+    </window>
+    <window class='worksheet' name='Wordmap'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{04437719-084D-48DF-B170-0BDF17DBC30D}' />
+    </window>
+    <window class='dashboard' maximized='true' name='ActiveSeriousNew'>
+      <viewpoints>
+        <viewpoint name='CasesProportions'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='CasesTrends'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='RelationCases'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Wordmap'>
+          <zoom type='entire-view' />
+          <default-map-tool-selection tool='1' />
+        </viewpoint>
+      </viewpoints>
+      <active id='5' />
+      <simple-id uuid='{17024B9E-7CD6-4F89-832B-EC7B13660D39}' />
+    </window>
+    <window class='worksheet' name='Sheet 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A9149DE5-15E2-41BC-93F2-3B8BD5F00F00}' />
+    </window>
+  </windows>
+</workbook>
