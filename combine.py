@@ -34,6 +34,7 @@ def combine(raw: dict, dates: list, path: str):
             row.name = 0
             country_df = country_df.append(row, ignore_index=True)
 
+        country_df = country_df.fillna(0)
         country_df.to_csv(path + f'/countries/{c}.tsv', sep='\t',index=False)
     
     # World

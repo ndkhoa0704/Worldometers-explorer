@@ -1,0 +1,16 @@
+Date	Country,Other	TotalCases	NewCases	TotalDeaths	NewDeaths	TotalRecovered	NewRecovered	ActiveCases	Serious,Critical	Tot Cases/1M pop	Deaths/1M pop	TotalTests	Tests/1M pop	Population	Continent
+2022-04-02	Antigua and Barbuda	7493	2.0	135.0	0	7350.0	3.0	8.0	1.0	75422.0	1359.0	18901.0	190250.0	99348.0	North America
+2022-04-03	Antigua and Barbuda	7493	0.0	135.0	0	7350.0	0.0	8.0	1.0	75419.0	1359.0	18901.0	190245.0	99351.0	North America
+2022-04-04	Antigua and Barbuda	7493	0.0	135.0	0	7350.0	0.0	8.0	1.0	75418.0	1359.0	18901.0	190241.0	99353.0	North America
+2022-04-05	Antigua and Barbuda	7493	0.0	135.0	0	7350.0	0.0	8.0	1.0	75416.0	1359.0	18901.0	190237.0	99355.0	North America
+2022-04-06	Antigua and Barbuda	7493	0.0	135.0	0	7350.0	0.0	8.0	1.0	75415.0	1359.0	18901.0	190233.0	99357.0	North America
+2022-04-07	Antigua and Barbuda	7493	0.0	135.0	0	7350.0	0.0	8.0	1.0	75413.0	1359.0	18901.0	190229.0	99359.0	North America
+2022-04-08	Antigua and Barbuda	7511	18.0	135.0	0	7358.0	8.0	18.0	1.0	75592.0	1359.0	18901.0	190224.0	99362.0	North America
+2022-04-09	Antigua and Barbuda	7511	0.0	135.0	0	7358.0	0.0	18.0	1.0	75591.0	1359.0	18901.0	190220.0	99364.0	North America
+2022-04-10	Antigua and Barbuda	7511	0.0	135.0	0	7358.0	0.0	18.0	1.0	75589.0	1359.0	18901.0	190216.0	99366.0	North America
+2022-04-11	Antigua and Barbuda	7511	0.0	135.0	0	7358.0	0.0	18.0	1.0	75588.0	1359.0	18901.0	190212.0	99368.0	North America
+2022-04-12	Antigua and Barbuda	7523	12.0	135.0	0	7367.0	9.0	21.0	1.0	75706.0	1359.0	18901.0	190206.0	99371.0	North America
+2022-04-13	Antigua and Barbuda	7523	0.0	135.0	0	7367.0	0.0	21.0	1.0	75705.0	1359.0	18901.0	190203.0	99373.0	North America
+2022-04-14	Antigua and Barbuda	7535	12.0	135.0	0	7377.0	10.0	23.0	1.0	75824.0	1358.0	18901.0	190199.0	99375.0	North America
+2022-04-15	Antigua and Barbuda	7535	0.0	135.0	0	7377.0	0.0	23.0	1.0	75824.0	1358.0	18901.0	190199.0	99375.0	North America
+2022-04-16	Antigua and Barbuda	7535	0.0	135.0	0	7377.0	0.0	23.0	1.0	75824.0	1358.0	18901.0	190199.0	99375.0	North America
