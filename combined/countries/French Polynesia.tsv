@@ -1,0 +1,16 @@
+Date	Country,Other	TotalCases	NewCases	TotalDeaths	NewDeaths	TotalRecovered	NewRecovered	ActiveCases	Serious,Critical	Tot Cases/1M pop	Deaths/1M pop	TotalTests	Tests/1M pop	Population	Continent
+2022-04-02	French Polynesia	72318	123.0	646.0	0.0	0	0	0	7.0	254864.0	2277.0	0	0	283751.0	Australia/Oceania
+2022-04-03	French Polynesia	72318	0.0	646.0	0.0	0	0	0	7.0	254861.0	2277.0	0	0	283755.0	Australia/Oceania
+2022-04-04	French Polynesia	72318	0.0	646.0	0.0	0	0	0	7.0	254856.0	2277.0	0	0	283760.0	Australia/Oceania
+2022-04-05	French Polynesia	72386	68.0	647.0	1.0	0	0	0	7.0	255092.0	2280.0	0	0	283764.0	Australia/Oceania
+2022-04-06	French Polynesia	72473	87.0	648.0	1.0	0	0	0	7.0	255395.0	2284.0	0	0	283768.0	Australia/Oceania
+2022-04-07	French Polynesia	72473	0.0	648.0	0.0	0	0	0	7.0	255391.0	2284.0	0	0	283773.0	Australia/Oceania
+2022-04-08	French Polynesia	72473	0.0	648.0	0.0	0	0	0	7.0	255387.0	2283.0	0	0	283777.0	Australia/Oceania
+2022-04-09	French Polynesia	72528	55.0	648.0	0.0	0	0	0	7.0	255576.0	2283.0	0	0	283782.0	Australia/Oceania
+2022-04-10	French Polynesia	72528	0.0	648.0	0.0	0	0	0	7.0	255573.0	2283.0	0	0	283786.0	Australia/Oceania
+2022-04-11	French Polynesia	72528	0.0	648.0	0.0	0	0	0	7.0	255568.0	2283.0	0	0	283791.0	Australia/Oceania
+2022-04-12	French Polynesia	72570	0.0	648.0	0.0	0	0	0	7.0	255713.0	2283.0	0	0	283795.0	Australia/Oceania
+2022-04-13	French Polynesia	72596	26.0	648.0	0.0	0	0	0	7.0	255801.0	2283.0	0	0	283799.0	Australia/Oceania
+2022-04-14	French Polynesia	72596	0.0	648.0	0.0	0	0	0	7.0	255796.0	2283.0	0	0	283804.0	Australia/Oceania
+2022-04-15	French Polynesia	72596	0.0	648.0	0.0	0	0	0	7.0	255796.0	2283.0	0	0	283804.0	Australia/Oceania
+2022-04-16	French Polynesia	72596	0.0	648.0	0.0	0	0	0	7.0	255796.0	2283.0	0	0	283804.0	Australia/Oceania
